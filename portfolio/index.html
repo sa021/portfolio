@@ -3,12 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>SAMURAI ポートフォリオ</title>
+  <title>10Prrisume ポートフォリオ</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
   <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+     <!-- slickの読み込み -->
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+ 
 </head>
 
 <body>
@@ -37,7 +41,21 @@
       <!-- mv -->
       <div class="mv">
         <div class="mv-container">
-          <img src="img/DESIGNCODING.png" alt="">
+          <!-- メインビジュアル -->
+          <section id="carousel-section">
+            <div class="carousel">
+              <div>
+                <img class="carouselImg" src="img/DESIGNCODING.png">
+              </div>
+              <div>
+                <img class="carouselImg" src="img/TOP2.png">
+              </div>
+              <div>
+                <img class="carouselImg" src="img/TOP3.png">
+              </div>
+            </div>
+          </section>
+          
         </div>
       </div>
       <!-- /mv -->
@@ -46,6 +64,9 @@
       <section class="works section" id="works">
         <div class="container">
           <h2 class="title">WORKS</h2>
+
+
+          <!-- 上段画像 -->
           <div class="works-list">
             <a class="works-item" href="works-1.html">
               <div class="works-img"><img src="img/works/html1.png" alt="html1" /></div>
@@ -62,6 +83,10 @@
               <p class="works-name">美容室のHP</p>
               <p class="works-info">WordPress</p>
             </a>
+
+
+            <!-- 下段画像 -->
+
             <a class="works-item" href="works-4.html">
               <div class="works-img"><img src="img/works/photoshop.png" alt="Photoshop" /></div>
               <p class="works-name">ITスクールのバナー</p>
@@ -192,7 +217,19 @@
     <!-- /footer -->
 
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+  <!-- jQueryを先に読み込む -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+crossorigin="anonymous"></script>
+<!-- slickの読み込み -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
   <script type='text/javascript' src="js/script.js"></script>
+    
+
+  </body>
+  </html>
+
 </body>
 </html>
