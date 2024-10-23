@@ -2,7 +2,7 @@ body {
   font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
   font-size: 15px;
   letter-spacing: .05em;
-  color: #333;
+  color: hsl(0, 0%, 20%);
 }
 
 a {
@@ -40,7 +40,7 @@ img {
 }
 
 .section:nth-of-type(odd) {
-  background-color: #f7f7f7;
+  background-color: #484747;
 }
 
 .container {
@@ -59,7 +59,7 @@ img {
   margin-bottom: 40px;
   text-align: center;
   letter-spacing: .05em;
-  color: #333;
+  color: #ffffff;
 }
 
 .lead {
@@ -76,7 +76,7 @@ img {
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: #fff;
+  background-color: #0e0d0d;
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
 }
 
@@ -96,7 +96,7 @@ img {
 }
 
 .header-logo a {
-  color: #333;
+  color: #ffffff;
 }
 
 .gnav-list {
@@ -117,7 +117,7 @@ img {
   padding: 5px 0;
   transition: .3s;
   letter-spacing: .05em;
-  color: #333;
+  color: #ffffff;
 }
 .gnav-item a:after {
   position: absolute;
@@ -129,7 +129,7 @@ img {
   transition: .3s;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #333;
+  background-color: #ffffff;
 }
 
 .gnav-item a:hover:after {
@@ -172,7 +172,7 @@ img {
   width: 31.74603%;
   margin-right: 1.58730%;
   margin-bottom: 40px;
-  color: #333;
+  color: #ffffff;
 }
 
 .works-item:hover {
@@ -184,18 +184,20 @@ img {
 }
 
 .works-img img {
-  border: 1px solid #e6e6e6;
+  border: 1px solid #fff;
 }
 
 .works-name {
   font-size: 12px;
   font-weight: bold;
   margin-top: 8px;
+  
 }
 
 .works-info {
   font-size: 10px;
   margin-top: 5px;
+  color: #fff;
 }
 
 /*--------------------------------
@@ -243,6 +245,7 @@ img {
   flex-wrap: wrap;
   max-width: 800px;
   margin: 0 auto;
+  color: #fff;
 }
 .profile-img {
   width: 20%;
@@ -300,13 +303,13 @@ img {
 ---------------------------------*/
 .footer {
   padding: 30px;
-  background-color: #333;
+  background-color: #fff;
 }
 
 .copyright {
   font-size: 10px;
   text-align: center;
-  color: #797979;
+  color: #ffffff;
 }
 
 /*--------------------------------
@@ -357,7 +360,7 @@ img {
   height: 100%;
   content: "";
   border-radius: 3px;
-  background-color: #333;
+  background-color: #ffffff;
 }
 
 .article-body p {
