@@ -151,11 +151,12 @@ img {
 .mv-container {
   position: relative;
   padding: 0 20px;
+  width: 100%;
 }
 
 .mv-container img {
   width: 100%;
-  height: auto;
+  height: 500px;
 }
 
 /*--------------------------------
