@@ -272,6 +272,10 @@ animation-timeline: view();
 animation-range: entry 0% contain 20%;
 }
 
+.skill h2 {
+  color: #000;
+}
+
 /* キラン */
 
 .skill-list::before {
