@@ -273,7 +273,7 @@ animation-range: entry 0% contain 20%;
 }
 
 .skill h2 {
-  color: #000;
+  color: #484747;
 }
 
 /* キラン */
@@ -425,6 +425,10 @@ animation-range: entry 0% contain 20%;
 ---------------------------------*/
 .contact {
   text-align: center;
+}
+
+.contact h2 {
+  color: #484747;
 }
 
 .contact-item:not(:last-child) {
